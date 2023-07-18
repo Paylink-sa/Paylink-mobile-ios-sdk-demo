@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-TestPLPaymentGateway/Pods-TestPLPaymentGateway-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/PaylinkGateway/PLPaymentGateway.framework/PLPaymentGateway

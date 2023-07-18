@@ -1,0 +1,21 @@
+PODS:
+  - PaylinkGateway (1.1.0)
+
+DEPENDENCIES:
+  - PaylinkGateway (from `https://github.com/Paylink-sa/PLPaymentGatewayPod.git`)
+
+EXTERNAL SOURCES:
+  PaylinkGateway:
+    :git: https://github.com/Paylink-sa/PLPaymentGatewayPod.git
+
+CHECKOUT OPTIONS:
+  PaylinkGateway:
+    :commit: 2434647992baffe368e7c5a82149e840ef45d490
+    :git: https://github.com/Paylink-sa/PLPaymentGatewayPod.git
+
+SPEC CHECKSUMS:
+  PaylinkGateway: bedb099d883acf7022d906b77a4028e1e6c3756f
+
+PODFILE CHECKSUM: 8e7e20a03125ffc1dd7ec59c279bae1b910e7771
+
+COCOAPODS: 1.12.1

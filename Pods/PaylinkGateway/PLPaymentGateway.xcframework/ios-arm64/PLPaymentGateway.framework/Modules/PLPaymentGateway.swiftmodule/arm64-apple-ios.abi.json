@@ -1,0 +1,3295 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PLInvoiceWebView",
+        "printedName": "PLInvoiceWebView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(urlString:bgColor:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLInvoiceWebView",
+                "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV9urlString7bgColor17completionHandlerACSSSg_So7UIColorCSgySS_SStctcfc",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV9urlString7bgColor17completionHandlerACSSSg_So7UIColorCSgySS_SStctcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<PLPaymentGateway.PLInvoiceWebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLInvoiceWebView",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV10makeUIView7contextSo05WKWebE0C7SwiftUI0G20RepresentableContextVyACG_tF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetCache",
+            "printedName": "resetCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV10resetCacheyyFZ",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV10resetCacheyyFZ",
+            "moduleName": "PLPaymentGateway",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<PLPaymentGateway.PLInvoiceWebView>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLInvoiceWebView",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV12updateUIView_7contextySo05WKWebE0C_7SwiftUI0G20RepresentableContextVyACGtF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Coordinator",
+                "printedName": "PLPaymentGateway.PLInvoiceWebView.Coordinator",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV15makeCoordinatorAC0G0CyF",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV15makeCoordinatorAC0G0CyF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(parent:completionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView.Coordinator",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLInvoiceWebView",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC6parent17completionHandlerAeC_ySS_SStctcfc",
+                "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC6parent17completionHandlerAeC_ySS_SStctcfc",
+                "moduleName": "PLPaymentGateway",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "scrollViewWillBeginZooming",
+                "printedName": "scrollViewWillBeginZooming(_:with:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC06scrollE16WillBeginZooming_4withySo08UIScrollE0C_So6UIViewCSgtF",
+                "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC06scrollE16WillBeginZooming_4withySo08UIScrollE0C_So6UIViewCSgtF",
+                "moduleName": "PLPaymentGateway",
+                "objc_name": "scrollViewWillBeginZooming:withView:",
+                "declAttributes": [
+                  "ObjC",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:didFinish:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKNavigation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigation",
+                        "printedName": "WebKit.WKNavigation",
+                        "usr": "c:objc(cs)WKNavigation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+                "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+                "moduleName": "PLPaymentGateway",
+                "objc_name": "webView:didFinishNavigation:",
+                "declAttributes": [
+                  "ObjC",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "webView",
+                "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationAction",
+                    "printedName": "WebKit.WKNavigationAction",
+                    "usr": "c:objc(cs)WKNavigationAction"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKNavigationActionPolicy",
+                        "printedName": "WebKit.WKNavigationActionPolicy",
+                        "usr": "c:@E@WKNavigationActionPolicy"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+                "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+                "moduleName": "PLPaymentGateway",
+                "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+                "declAttributes": [
+                  "ObjC",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView.Coordinator",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorCAEycfc",
+                "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorCAEycfc",
+                "moduleName": "PLPaymentGateway",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Custom",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC",
+            "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV",
+        "mangledName": "$s16PLPaymentGateway16PLInvoiceWebViewV",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Coordinator",
+                    "printedName": "PLPaymentGateway.PLInvoiceWebView.Coordinator",
+                    "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV11CoordinatorC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PLInvoiceWebViewController",
+        "printedName": "PLInvoiceWebViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)viewDidLoad",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC11viewDidLoadyyF",
+            "moduleName": "PLPaymentGateway",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLInvoiceWebViewController",
+                "printedName": "PLPaymentGateway.PLInvoiceWebViewController",
+                "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "PLPaymentGateway",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_9didFinishySo05WKWebE0C_So12WKNavigationCSgtF",
+            "moduleName": "PLPaymentGateway",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PLPaymentGateway@objc(cs)PLInvoiceWebViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0noI0VctF",
+            "moduleName": "PLPaymentGateway",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PLPaymentGateway@objc(cs)PLInvoiceWebViewController",
+        "mangledName": "$s16PLPaymentGateway26PLInvoiceWebViewControllerC",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaylinkGateway",
+        "printedName": "PaylinkGateway",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Environment",
+            "printedName": "Environment",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "test",
+                "printedName": "test",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PLPaymentGateway.PaylinkGateway.Environment.Type) -> PLPaymentGateway.PaylinkGateway.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                        "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                            "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO4testyA2EmF",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO4testyA2EmF",
+                "moduleName": "PLPaymentGateway"
+              },
+              {
+                "kind": "Var",
+                "name": "prod",
+                "printedName": "prod",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PLPaymentGateway.PaylinkGateway.Environment.Type) -> PLPaymentGateway.PaylinkGateway.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                        "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                            "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO4prodyA2EmF",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO4prodyA2EmF",
+                "moduleName": "PLPaymentGateway"
+              },
+              {
+                "kind": "Var",
+                "name": "localhost",
+                "printedName": "localhost",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PLPaymentGateway.PaylinkGateway.Environment.Type) -> PLPaymentGateway.PaylinkGateway.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                        "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                            "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO9localhostyA2EmF",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO9localhostyA2EmF",
+                "moduleName": "PLPaymentGateway"
+              },
+              {
+                "kind": "Var",
+                "name": "dev",
+                "printedName": "dev",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(PLPaymentGateway.PaylinkGateway.Environment.Type) -> PLPaymentGateway.PaylinkGateway.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                        "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "PLPaymentGateway.PaylinkGateway.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                            "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO3devyA2EmF",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO3devyA2EmF",
+                "moduleName": "PLPaymentGateway"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                    "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                    "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO2eeoiySbAE_AEtFZ",
+                "moduleName": "PLPaymentGateway",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO9hashValueSivp",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO9hashValueSivp",
+                "moduleName": "PLPaymentGateway",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO9hashValueSivg",
+                    "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO9hashValueSivg",
+                    "moduleName": "PLPaymentGateway",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO4hash4intoys6HasherVz_tF",
+                "moduleName": "PLPaymentGateway",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C11EnvironmentO",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaylinkGateway",
+                "printedName": "PLPaymentGateway.PaylinkGateway",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway07PaylinkB0CACycfc",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0CACycfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(paymentFormUrl:platform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaylinkGateway",
+                "printedName": "PLPaymentGateway.PaylinkGateway",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C14paymentFormUrl8platformACSS_SStcfc",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C14paymentFormUrl8platformACSS_SStcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:paymentFormUrl:platform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaylinkGateway",
+                "printedName": "PLPaymentGateway.PaylinkGateway",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C11environment14paymentFormUrl8platformA2C11EnvironmentO_S2Stcfc",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C11environment14paymentFormUrl8platformA2C11EnvironmentO_S2Stcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiId:secretKey:environment:paymentFormUrl:platform:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaylinkGateway",
+                "printedName": "PLPaymentGateway.PaylinkGateway",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C5apiId9secretKey11environment14paymentFormUrl8platformACSS_SSAC11EnvironmentOS2Stcfc",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C5apiId9secretKey11environment14paymentFormUrl8platformACSS_SSAC11EnvironmentOS2Stcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiId:secretKey:environment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PaylinkGateway",
+                "printedName": "PLPaymentGateway.PaylinkGateway",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "PLPaymentGateway.PaylinkGateway.Environment",
+                "usr": "s:16PLPaymentGateway07PaylinkB0C11EnvironmentO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C5apiId9secretKey11environmentACSS_SSAC11EnvironmentOtcfc",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C5apiId9secretKey11environmentACSS_SSAC11EnvironmentOtcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "openPaymentForm",
+            "printedName": "openPaymentForm(transactionNo:from:width:bgColor:lang:topSpace:textColor:buttonTextColor:mainColor:completion:loaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(orderNumber: Swift.String, transactionNo: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C15openPaymentForm13transactionNo4from5width7bgColor4lang8topSpace04textL0010buttonTextL004mainL010completion6loadedySS_So16UIViewControllerCSiS2SSiS3Sys6ResultOySS11orderNumber_SSAEts5Error_pGcSgyyctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C15openPaymentForm13transactionNo4from5width7bgColor4lang8topSpace04textL0010buttonTextL004mainL010completion6loadedySS_So16UIViewControllerCSiS2SSiS3Sys6ResultOySS11orderNumber_SSAEts5Error_pGcSgyyctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPaymentFormView",
+            "printedName": "getPaymentFormView(transactionNo:width:bgColor:lang:topSpace:textColor:buttonTextColor:mainColor:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLInvoiceWebView",
+                "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C18getPaymentFormView13transactionNo5width7bgColor4lang8topSpace04textL0010buttonTextL004mainL010completionAA012PLInvoiceWebG0VSS_SiS2SSiS3SySS_SStctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C18getPaymentFormView13transactionNo5width7bgColor4lang8topSpace04textL0010buttonTextL004mainL010completionAA012PLInvoiceWebG0VSS_SiS2SSiS3SySS_SStctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openInvoiceURL",
+            "printedName": "openInvoiceURL(url:from:clientName:clientMobile:width:lang:bgColor:topSpace:textColor:buttonTextColor:mainColor:completion:loaded:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Result",
+                        "printedName": "Swift.Result<(orderNumber: Swift.String, transactionNo: Swift.String), Swift.Error>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(orderNumber: Swift.String, transactionNo: Swift.String)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:s6ResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C14openInvoiceURL3url4from10clientName0I6Mobile5width4lang7bgColor8topSpace04textO0010buttonTextO004mainO010completion6loadedy10Foundation0F0V_So16UIViewControllerCS2SSiS2SSiS3Sys6ResultOySS11orderNumber_SS13transactionNots5Error_pGcSgyyctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C14openInvoiceURL3url4from10clientName0I6Mobile5width4lang7bgColor8topSpace04textO0010buttonTextO004mainO010completion6loadedy10Foundation0F0V_So16UIViewControllerCS2SSiS2SSiS3Sys6ResultOySS11orderNumber_SS13transactionNots5Error_pGcSgyyctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInvoiceURLView",
+            "printedName": "getInvoiceURLView(url:clientName:clientMobile:lang:width:bgColor:topSpace:textColor:buttonTextColor:mainColor:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLInvoiceWebView",
+                "printedName": "PLPaymentGateway.PLInvoiceWebView",
+                "usr": "s:16PLPaymentGateway16PLInvoiceWebViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C17getInvoiceURLView3url10clientName0H6Mobile4lang5width7bgColor8topSpace04textN0010buttonTextN004mainN010completionAA16PLInvoiceWebViewVSS_S3SSiSSSiS3SySS_SStctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C17getInvoiceURLView3url10clientName0H6Mobile4lang5width7bgColor8topSpace04textN0010buttonTextN004mainN010completionAA16PLInvoiceWebViewVSS_S3SSiSSSiS3SySS_SStctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "auth",
+            "printedName": "auth(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.String, Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.String, Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C4auth10completionyys6ResultOySSs5Error_pGc_tF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C4auth10completionyys6ResultOySSs5Error_pGc_tF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addInvoice",
+            "printedName": "addInvoice(idToken:customerName:customerMobile:amount:currency:note:orderNumber:products:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PLPaymentGateway.PLProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLProduct",
+                    "printedName": "PLPaymentGateway.PLProduct",
+                    "usr": "s:16PLPaymentGateway9PLProductV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C10addInvoice7idToken12customerName0H6Mobile6amount8currency4note11orderNumber8products10completionySS_S2SSdS3SSayAA9PLProductVGys6ResultOySDySSypGs5Error_pGctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C10addInvoice7idToken12customerName0H6Mobile6amount8currency4note11orderNumber8products10completionySS_S2SSdS3SSayAA9PLProductVGys6ResultOySDySSypGs5Error_pGctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInvoice",
+            "printedName": "showInvoice(idToken:customerName:customerMobile:amount:currency:note:orderNumber:products:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PLPaymentGateway.PLProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLProduct",
+                    "printedName": "PLPaymentGateway.PLProduct",
+                    "usr": "s:16PLPaymentGateway9PLProductV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway07PaylinkB0C11showInvoice7idToken12customerName0H6Mobile6amount8currency4note11orderNumber8products10completionySS_S2SSdS3SSayAA9PLProductVGys6ResultOySDySSypGs5Error_pGctF",
+            "mangledName": "$s16PLPaymentGateway07PaylinkB0C11showInvoice7idToken12customerName0H6Mobile6amount8currency4note11orderNumber8products10completionySS_S2SSdS3SSayAA9PLProductVGys6ResultOySDySSypGs5Error_pGctF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16PLPaymentGateway07PaylinkB0C",
+        "mangledName": "$s16PLPaymentGateway07PaylinkB0C",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PLOrder",
+        "printedName": "PLOrder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(customerName:customerMobile:amount:currency:note:orderNumber:products:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLOrder",
+                "printedName": "PLPaymentGateway.PLOrder",
+                "usr": "s:16PLPaymentGateway7PLOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PLPaymentGateway.PLProduct]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLProduct",
+                    "printedName": "PLPaymentGateway.PLProduct",
+                    "usr": "s:16PLPaymentGateway9PLProductV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway7PLOrderV12customerName0D6Mobile6amount8currency4note11orderNumber8productsACSS_SSSdS3SSayAA9PLProductVGtcfc",
+            "mangledName": "$s16PLPaymentGateway7PLOrderV12customerName0D6Mobile6amount8currency4note11orderNumber8productsACSS_SSSdS3SSayAA9PLProductVGtcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLOrder",
+                "printedName": "PLPaymentGateway.PLOrder",
+                "usr": "s:16PLPaymentGateway7PLOrderV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway7PLOrderVACycfc",
+            "mangledName": "$s16PLPaymentGateway7PLOrderVACycfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PLPaymentGateway7PLOrderV",
+        "mangledName": "$s16PLPaymentGateway7PLOrderV",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PLAPIError",
+        "printedName": "PLAPIError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidURL",
+            "printedName": "invalidURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLAPIError",
+                    "printedName": "PLPaymentGateway.PLAPIError",
+                    "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO10invalidURLyA2CmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO10invalidURLyA2CmF",
+            "moduleName": "PLPaymentGateway"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidResponse",
+            "printedName": "invalidResponse",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLAPIError",
+                    "printedName": "PLPaymentGateway.PLAPIError",
+                    "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO15invalidResponseyA2CmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO15invalidResponseyA2CmF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> (Swift.Int) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> PLPaymentGateway.PLAPIError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO10statusCodeyACSicACmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO10statusCodeyACSicACmF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidParameters",
+            "printedName": "invalidParameters",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLAPIError",
+                    "printedName": "PLPaymentGateway.PLAPIError",
+                    "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO17invalidParametersyA2CmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO17invalidParametersyA2CmF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invalidData",
+            "printedName": "invalidData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLAPIError",
+                    "printedName": "PLPaymentGateway.PLAPIError",
+                    "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO11invalidDatayA2CmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO11invalidDatayA2CmF",
+            "moduleName": "PLPaymentGateway"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonParsingError",
+            "printedName": "jsonParsingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PLPaymentGateway.PLAPIError.Type) -> PLPaymentGateway.PLAPIError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PLAPIError",
+                    "printedName": "PLPaymentGateway.PLAPIError",
+                    "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PLPaymentGateway.PLAPIError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PLAPIError",
+                        "printedName": "PLPaymentGateway.PLAPIError",
+                        "usr": "s:16PLPaymentGateway10PLAPIErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16PLPaymentGateway10PLAPIErrorO16jsonParsingErroryA2CmF",
+            "mangledName": "$s16PLPaymentGateway10PLAPIErrorO16jsonParsingErroryA2CmF",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:16PLPaymentGateway10PLAPIErrorO",
+        "mangledName": "$s16PLPaymentGateway10PLAPIErrorO",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PLProduct",
+        "printedName": "PLProduct",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(title:qty:price:description:imageSrc:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLProduct",
+                "printedName": "PLPaymentGateway.PLProduct",
+                "usr": "s:16PLPaymentGateway9PLProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway9PLProductV5title3qty5price11description8imageSrcACSS_SiSdS2Stcfc",
+            "mangledName": "$s16PLPaymentGateway9PLProductV5title3qty5price11description8imageSrcACSS_SiSdS2Stcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLProduct",
+                "printedName": "PLPaymentGateway.PLProduct",
+                "usr": "s:16PLPaymentGateway9PLProductV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway9PLProductV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16PLPaymentGateway9PLProductV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PLProduct",
+                "printedName": "PLPaymentGateway.PLProduct",
+                "usr": "s:16PLPaymentGateway9PLProductV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16PLPaymentGateway9PLProductVACycfc",
+            "mangledName": "$s16PLPaymentGateway9PLProductVACycfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16PLPaymentGateway9PLProductV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16PLPaymentGateway9PLProductV6encode2toys7Encoder_p_tKF",
+            "moduleName": "PLPaymentGateway",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16PLPaymentGateway9PLProductV",
+        "mangledName": "$s16PLPaymentGateway9PLProductV",
+        "moduleName": "PLPaymentGateway",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(red:green:blue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC16PLPaymentGatewayE3red5green4blueABSi_S2itcfc",
+            "mangledName": "$sSo7UIColorC16PLPaymentGatewayE3red5green4blueABSi_S2itcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hexString:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC16PLPaymentGatewayE9hexString5alphaABSS_14CoreFoundation7CGFloatVtcfc",
+            "mangledName": "$sSo7UIColorC16PLPaymentGatewayE9hexString5alphaABSS_12CoreGraphics7CGFloatVtcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rgb:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC16PLPaymentGatewayE3rgbABSi_tcfc",
+            "mangledName": "$sSo7UIColorC16PLPaymentGatewayE3rgbABSi_tcfc",
+            "moduleName": "PLPaymentGateway",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 434,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 462,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 5,
+      "value": "\"000\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 8,
+      "value": "\"3087de\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 4634,
+      "length": 11,
+      "value": "\"PLPaymentGateway.Coordinator\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLInvoiceWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 26,
+      "value": "\"PLPaymentGateway.PLInvoiceWebViewController\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1809,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 2260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3793,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3847,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 3902,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3956,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4012,
+      "length": 5,
+      "value": "\"000\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4077,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 4136,
+      "length": 8,
+      "value": "\"3087de\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5397,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5454,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5512,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5569,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5628,
+      "length": 5,
+      "value": "\"000\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5696,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 5758,
+      "length": 8,
+      "value": "\"3087de\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7164,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7215,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7270,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7324,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7379,
+      "length": 5,
+      "value": "\"000\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7443,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 7501,
+      "length": 8,
+      "value": "\"3087de\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 8763,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8816,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 8871,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8928,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 8987,
+      "length": 5,
+      "value": "\"000\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9054,
+      "length": 5,
+      "value": "\"FFF\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "StringLiteral",
+      "offset": 9115,
+      "length": 8,
+      "value": "\"3087de\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PaylinkGateway.swift",
+      "kind": "FloatLiteral",
+      "offset": 18453,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hassanayoub\/OfflineProjects\/paylink\/Code\/Mobile\/iOS\/PLPaymentGateway\/PLPaymentGateway\/PLProduct.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

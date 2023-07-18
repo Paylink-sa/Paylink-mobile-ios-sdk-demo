@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C46E51DE-471E-4A08-8FFF-C2E08ED2D45F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "24DDA0FE-BF9C-4C92-9A78-911E20FE443F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestPLPaymentGateway/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "24DDA0FE-BF9C-4C92-9A78-911E20FE443F - b398f84c955ddd29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String) -&gt; PLPaymentGateway.PLInvoiceWebView in TestPLPaymentGateway.ContentView.body.getter : some"
+                  moduleName = "TestPLPaymentGateway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanayoub/OfflineProjects/paylink/Code/Mobile/iOS/TestPLPaymentGatewayPod/TestPLPaymentGateway/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "24DDA0FE-BF9C-4C92-9A78-911E20FE443F - b3eab4ac75e09644"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String, Swift.String) -&gt; () in closure #3 (Swift.String) -&gt; PLPaymentGateway.PLInvoiceWebView in TestPLPaymentGateway.ContentView.body.getter : some"
+                  moduleName = "TestPLPaymentGateway"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hassanayoub/OfflineProjects/paylink/Code/Mobile/iOS/TestPLPaymentGatewayPod/TestPLPaymentGateway/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,11 @@
+framework module PLPaymentGateway {
+  umbrella header "PLPaymentGateway.h"
+
+  export *
+  module * { export * }
+}
+
+module PLPaymentGateway.Swift {
+  header "PLPaymentGateway-Swift.h"
+  requires objc
+}
